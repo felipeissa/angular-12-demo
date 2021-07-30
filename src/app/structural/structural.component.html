@@ -1,0 +1,8 @@
+<ng-container *ngFor="let item of itemArray">
+  <div *ngIf="item % 2 === 0; else oddItem">
+    Item {{item}} is pair
+  </div>
+  <ng-template #oddItem>
+    Item {{item}} is odd
+  </ng-template>
+</ng-container>

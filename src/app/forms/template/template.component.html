@@ -1,0 +1,7 @@
+<input matInput [(ngModel)]="value" (blur)="onBlur()">
+
+<div *ngIf="hasError">
+  <mat-error>
+    The input is invalid
+  </mat-error>
+</div>

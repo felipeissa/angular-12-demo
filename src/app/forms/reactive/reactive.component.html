@@ -1,0 +1,7 @@
+<form [formGroup]="formGroup">
+  <input matInput formControlName="textInput">
+</form>
+
+<mat-error *ngIf="!formGroup.pristine && formGroup.invalid">
+  Text field is invalid
+</mat-error>
