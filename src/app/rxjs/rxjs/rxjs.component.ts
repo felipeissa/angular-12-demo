@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { delay, map, switchMap } from 'rxjs/operators';
-import { RootServiceService } from 'src/app/services/root-service.service';
+import { RootServiceService } from '../../services/root-service.service';
 
 @Component({
   selector: 'app-rxjs',
