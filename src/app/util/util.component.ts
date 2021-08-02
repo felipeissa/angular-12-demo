@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UtilComponent implements OnInit {
 
+  index = 0;
   constructor() { }
 
   ngOnInit(): void {
@@ -109,4 +110,9 @@ export class UtilComponent implements OnInit {
 
     console.log(joinArray)
   }
+
+  increase() {
+    this.index++;
+  }
+
 }

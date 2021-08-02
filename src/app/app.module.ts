@@ -14,13 +14,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { ServicesModule } from './services/services.module';
 import { RxjsModule } from './rxjs/rxjs.module';
 import { UtilComponent } from './util/util.component';
+import { GetterSetterComponent } from './getter-setter/getter-setter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LifecycleComponent,
     StructuralComponent,
-    UtilComponent
+    UtilComponent,
+    GetterSetterComponent
   ],
   imports: [
     BrowserModule,

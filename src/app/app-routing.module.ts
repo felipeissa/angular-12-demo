@@ -8,6 +8,7 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { RxjsComponent } from './rxjs/rxjs/rxjs.component';
 import { ServicesContainerComponent } from './services/services-container/services-container.component';
 import { StructuralComponent } from './structural/structural.component';
+import { UtilComponent } from './util/util.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'reactive', component: ReactiveComponent },
   { path: 'service', component: ServicesContainerComponent },
   { path: 'rxjs', component: RxjsComponent },
+  { path: 'util', component: UtilComponent },
 ];
 
 @NgModule({
